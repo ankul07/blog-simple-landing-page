@@ -1,0 +1,56 @@
+.categories-post {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+.categories-post .social-container .social-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5rem;
+}
+.categories-post .social-container .social-list img {
+  width: 10rem;
+}
+.categories-post .popular-container {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.categories-post .popular-container .most-popular-list {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.categories-post .popular-container .blog_category_popular {
+  display: flex;
+  gap: 1rem;
+}
+.categories-post .popular-container .blog_category_popular img {
+  width: 15rem;
+}
+.categories-post .category-container {
+  margin-top: 3.5rem;
+}
+.categories-post .category-container .categories-list li {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.categories-post .category-container .categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3.5rem;
+}
+.categories-post .category-container .categories-list li a,
+.categories-post .category-container .categories-list li span {
+  font-size: 2rem;
+}
+@media (max-width: 800px) {
+  .categories-post {
+    margin-top: inherit;
+  }
+}

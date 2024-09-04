@@ -1,0 +1,170 @@
+/* BLOG CSSC CLASSES  */
+footer {
+  /* position: fixed; */
+  /* bottom: 0px; */
+  width: 100%;
+  background: #3e8da8;
+  margin-top: 4rem;
+}
+.main-content {
+  max-width: 1250px;
+  width: 100%;
+  margin: auto;
+  padding: 0 50px;
+  display: flex;
+}
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #3e8da8;
+}
+.box .content:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 15%;
+  background: #3e8da8;
+  top: -10px;
+}
+.left .content p {
+  text-align: justify;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+.left .content .social a {
+  padding: 0 2px;
+  color: #fff;
+}
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  /* background: #1a1a1a; */
+  /* background: #3e8da8; */
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #fff;
+}
+.left .content .social a span:hover {
+  background: #f12020;
+}
+.center .content .fas {
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #fff;
+}
+.center .content .fas:hover {
+  background: #f12020;
+}
+.center .content .text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 10px;
+  color: #fff;
+}
+.center .content .phone {
+  margin: 15px 0;
+}
+.right form .text {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  color: #fff;
+}
+.right form .msg {
+  margin-top: 10px;
+}
+.right form input,
+.right form textarea {
+  width: 100%;
+  font-size: 1.2rem;
+  /* background: #151515; */
+  background: #3e8da8;
+  padding-left: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.right form input:focus,
+.right form textarea:focus {
+  outline-color: #3498db;
+}
+.right form input {
+  height: 35px;
+}
+.right form .btn {
+  margin-top: 10px;
+}
+.right form .btn button {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  /* background: #f12020; */
+  /* background: #3e8da8; */
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.right form .btn button:hover {
+  background: #3e8da8;
+  border: 1px solid #fff;
+}
+.bottom center {
+  padding: 5px;
+  font-size: 0.9375rem;
+  /* background: #151515; */
+  background: #3e8da8;
+}
+.bottom center span {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.bottom center a {
+  color: #fff;
+  text-decoration: none;
+}
+.bottom center a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box {
+    margin: 5px 0;
+  }
+}

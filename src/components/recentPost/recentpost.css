@@ -1,0 +1,85 @@
+.recent-post .recent-container {
+  margin: 3.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+.recent-post .recent-container .blog_post_content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.recent-post .recent-container .blog_post_content h1 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  width: 100%;
+}
+.recent-post .recent-container .blog_post_content p {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+/* pagination css classes  */
+.pagination_wrapper {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pagination_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  column-gap: 0.8rem;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button i {
+  pointer-events: none;
+}
+.button:disabled {
+  color: #b3b3b3;
+  pointer-events: none;
+}
+.button,
+.link {
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+  color: #666666;
+  background-color: #f2f2f2;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.8rem;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  text-decoration: none;
+}
+.button:hover,
+.link:hover {
+  color: #fff;
+  background: #4070f4;
+}
+.link.active {
+  color: #fff;
+  background: #4070f4;
+}
+.pagination_count p {
+  font-size: 1.4rem;
+}

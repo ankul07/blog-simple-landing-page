@@ -1,0 +1,15 @@
+.widget-header {
+  height: 4rem;
+  border-bottom: 0.5rem solid #000;
+  position: relative;
+  overflow: hidden;
+}
+.widget-header span {
+  font-size: 2rem;
+  margin-top: 0.2rem;
+  display: inline-block;
+  background-color: #000;
+  padding: 0.2rem 2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
